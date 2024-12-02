@@ -1,0 +1,27 @@
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_con{
+    width: 1260px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_links{
+    width: 544px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: Effra;
+}
+.footer_links a{
+    text-decoration: none;
+    color: black;
+}

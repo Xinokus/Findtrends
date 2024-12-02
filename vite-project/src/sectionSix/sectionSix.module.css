@@ -1,0 +1,40 @@
+.sect_six{
+    width: 100%;
+    height: 539px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8FF35;
+}
+.sect_six_con{
+    width: 740px;
+    height: 259px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sect_six_title{
+    width: 740px;
+    height: 162px;
+    text-align: center;
+    font-size: 72px;
+    font-family: Effra;
+    font-weight: 900;
+}
+.sect_six_title p span{
+    width: 740px;
+    height: 81px;
+    color: #87D322;
+}
+.sect_six_button button{
+    width: 180px;
+    height: 57px;
+    border: none;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: Effra;
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+.sect_four{
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 2209px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect_four_con{
+    width: 1160px;
+    height: 1929px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sect_four_title{
+    font-size: 64px;
+    font-family: Effra;
+    font-weight: bold;
+}
+.sect_four_socials{
+    width: 1160px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sect_four_socials button{
+    width: 124px;
+    height: 124px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.sect_four_images{
+    width: 802px;
+    height: 1435px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.sect_four_images_twitter{
+    width: 802px;
+    height: 1435px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sect_four_button button{
+    width: 198px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: Effra;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+}

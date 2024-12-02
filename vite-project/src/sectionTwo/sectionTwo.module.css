@@ -1,0 +1,17 @@
+.sect_two{
+    width: 100%;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect_two div{
+    width: 1160px;
+    height: 304px;
+    font-size: 64px;
+    font-family: Effra;
+    font-weight: bold;
+}
+.sect_two div span{
+    color: #ADADAD;
+}
