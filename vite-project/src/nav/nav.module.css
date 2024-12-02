@@ -1,0 +1,47 @@
+nav{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links{
+    width: 488px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Effra';
+    font-size: 18px;
+}
+.nav_logo{
+    width: 213px;
+    height: 41px;
+}
+.nav_buttons{
+    width: 213px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_buttons button:nth-of-type(1){
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Effra';
+    font-size: 18px;
+}
+.nav_buttons button:nth-of-type(2){
+    width: 129px;
+    height: 42px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Effra';
+}

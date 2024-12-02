@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra-Heavy.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra.ttf');
+    font-weight: normal;
+}
+header{
+    width: 100%;
+    height: 900px;
+    background-image: url(./img/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
