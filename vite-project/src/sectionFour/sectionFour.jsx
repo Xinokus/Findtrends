@@ -1,4 +1,5 @@
 import classes from './sectionFour.module.css'
+import { useState } from 'react'
 
 import Facebook from './img/Facebook.png'
 import Twitter from './img/twitter.png'
@@ -14,6 +15,8 @@ import Tweet2 from './img/tweet 2.png'
 import Tweet3 from './img/tweet 3.png'
 
 export default function SectionFour(){
+    const [activeSocial, setActiveSocial] = useState(2)
+
     return(
         <>
             <section className={classes.sect_four}>
@@ -22,14 +25,14 @@ export default function SectionFour(){
                         <p>All platform connect to Findtrend</p>
                     </div>
                     <div className={classes.sect_four_socials}>
-                        <button type="button"><img src={Facebook} alt="" /></button>
-                        <button type="button"><img src={Twitter} alt="" /></button>
-                        <button type="button"><img src={Baller} alt="" /></button>
-                        <button type="button"><img src={Pinterest} alt="" /></button>
-                        <button type="button"><img src={Mario} alt="" /></button>
-                        <button type="button"><img src={Reddit} alt="" /></button>
-                        <button type="button"><img src={VK} alt="" /></button>
-                        <button type="button"><img src={LinkedIn} alt="" /></button>
+                        <button type="button" className={activeSocial == 1 ? classes.active : null} onClick={()=>setActiveSocial(1)}><img src={Facebook} alt="" /></button>
+                        <button type="button" className={activeSocial == 2 ? classes.active : null} onClick={()=>setActiveSocial(2)}><img src={Twitter} alt="" /></button>
+                        <button type="button" className={activeSocial == 3 ? classes.active : null} onClick={()=>setActiveSocial(3)}><img src={Baller} alt="" /></button>
+                        <button type="button" className={activeSocial == 4 ? classes.active : null} onClick={()=>setActiveSocial(4)}><img src={Pinterest} alt="" /></button>
+                        <button type="button" className={activeSocial == 5 ? classes.active : null} onClick={()=>setActiveSocial(5)}><img src={Mario} alt="" /></button>
+                        <button type="button" className={activeSocial == 6 ? classes.active : null} onClick={()=>setActiveSocial(6)}><img src={Reddit} alt="" /></button>
+                        <button type="button" className={activeSocial == 7 ? classes.active : null} onClick={()=>setActiveSocial(7)}><img src={VK} alt="" /></button>
+                        <button type="button" className={activeSocial == 8 ? classes.active : null} onClick={()=>setActiveSocial(8)}><img src={LinkedIn} alt="" /></button>
                     </div>  
                     <div className={classes.sect_four_images}>
                         <div className={classes.sect_four_images_twitter}> {/* Твиттер */}

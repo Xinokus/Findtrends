@@ -32,6 +32,18 @@
     background: none;
     border: none;
     cursor: pointer;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    transition: 0.25s all ease;
+}
+.sect_four_socials button:hover{
+    background-color: #A8FF35;
+    border-radius: 8px;
+    transition: 0.25s all ease;
+}
+.sect_four_socials button.active{
+    background-color: #A8FF35;
+    border-radius: 8px;
 }
 .sect_four_images{
     width: 802px;
@@ -61,4 +73,5 @@
     font-weight: bold;
     border: none;
     border-radius: 40px;
+    cursor: pointer;
 }

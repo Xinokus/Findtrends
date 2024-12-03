@@ -11,7 +11,7 @@ export default function SectionThree(){
                         <p>Findtrend make +1000 Startup grow</p>
                     </div>
                     <div className={classes.sect_three_main}>
-                        {ImageArray.map((image)=><img src={image.image}></img>)}
+                        {ImageArray.map((image)=><img key={image.id} src={image.image}></img>)}
                     </div>
                 </div>
             </section>

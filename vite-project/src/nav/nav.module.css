@@ -19,27 +19,42 @@ nav{
     font-size: 18px;
 }
 .nav_logo{
-    width: 213px;
+    width: 260px;
     height: 41px;
 }
 .nav_buttons{
-    width: 213px;
+    width: 260px;
     height: 42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.nav_buttons button{
+    cursor: pointer;
+}
 .nav_buttons button:nth-of-type(1){
+    width: 129px;
+    height: 42px;
     background: none;
     border: none;
     color: white;
     font-family: 'Effra';
     font-size: 18px;
+    border-radius: 40px;
+}
+.nav_buttons button:nth-of-type(1):hover{
+    background-color: white;
+    color: black;
+}
+.nav_buttons button:nth-of-type(2):hover{
+    background-color: white;
+    color: black;
 }
 .nav_buttons button:nth-of-type(2){
     width: 129px;
     height: 42px;
-    background-color: white;
+    background: none;
+    color: white;
     border: none;
     border-radius: 40px;
     font-size: 18px;
