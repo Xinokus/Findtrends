@@ -27,7 +27,7 @@ header{
     height: 900px;
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: start;
     align-items: center;
